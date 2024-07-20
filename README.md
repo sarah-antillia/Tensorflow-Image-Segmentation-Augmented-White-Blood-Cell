@@ -374,7 +374,7 @@ python ../../../src/TensorflowUNetEvaluator.py ./train_eval_infer_aug.config
 
 <a href="./projects/TensorflowSlightlyFlexibleUNet/White-Blood-Cell/evaluation.csv">evaluation.csv</a><br>
 
-The loss (bce_dice_loss) score for this test dataset were improved from those of the first experiment as shown below.<br>
+The loss (bce_dice_loss) and dice_coef for this test dataset were improved from those of the first experiment as shown below.<br>
 <pre>
 loss,0.0561
 dice_coef,0.9127
